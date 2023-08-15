@@ -24,7 +24,6 @@ return new class extends Migration
             $table->enum('type', ['client', 'freelancer'])->default('freelancer');
             $table->rememberToken();
             $table->timestamps();
-
         });
     }
 
